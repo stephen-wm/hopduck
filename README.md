@@ -31,6 +31,7 @@ hopduck/
 ├─ .gitattributes                       # Git behavior settings (line endings, diff rules, etc.)
 ├─ .gitignore                           # Files and directories excluded from version control
 ├─ .lintstagedrc.json                   # lint-staged configuration for running checks on staged files
+├─ .markdownlint-cli2.jsonc             # Markdown linting configuration
 ├─ .npmrc                               # npm configuration (dependency behavior, install settings)
 ├─ .nvmrc                               # Node.js version for local development consistency
 ├─ AGENTS.md                            # Guidelines for AI agents/tools interacting with the codebase
