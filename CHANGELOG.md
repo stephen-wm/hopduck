@@ -6,6 +6,19 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-06-23
+
+### Added
+
+- Preceding commit message validation step in Husky `pre-commit` hook.
+- Husky `pre-push` hook to validate only commit messages being pushed.
+- Markdownlint configuration with corresponding `lint:md` script in package.json file.
+- Added markdown linting setup with `markdownlint-cli2` in Lint-staged configuration.
+
+### Changed
+
+- Update project structure diagram to show added `.markdownlint-cli2.jsonc` file.
+
 ## [0.3.0] - 2026-06-23
 
 ### Added
@@ -78,7 +91,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - Enabled `noFallThroughCaseInSwitch` and `noUnCheckedIndexedAccess` options
   - Disabled `allowUnreachableCode` option suppression
 
-[Unreleased]: https://github.com/stephen-wm/hopduck/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/stephen-wm/hopduck/compare/v0.4.0...HEAD
+[0.4.0]: https://github.com/stephen-wm/hopduck/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/stephen-wm/hopduck/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/stephen-wm/hopduck/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/stephen-wm/hopduck/releases/tag/v0.1.0
