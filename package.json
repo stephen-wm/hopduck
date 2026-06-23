@@ -29,6 +29,7 @@
     "fmt:check": "oxfmt --check",
     "check": "ultracite check",
     "fix": "ultracite fix",
+    "cspell": "cspell ** --dot",
     "prepare": "husky",
     "docs": "open-cli https://github.com/stephen-wm/hopduck#README"
   },
