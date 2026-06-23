@@ -2,10 +2,35 @@
   "name": "web",
   "version": "0.1.0",
   "private": true,
+  "description": "A modern SaaS platform blending hyper-secure URL shorteners with dynamic, device-aware deep links.",
+  "homepage": "https://hopduck.xyz",
+  "bugs": {
+    "url": "https://github.com/stephen-wm/hopduck/issues",
+    "email": "hellostephenwm@gmail.com"
+  },
+  "license": "AGPL-3.0-only",
+  "author": {
+    "name": "Stephen M. (https://github.com/stephen-wm)",
+    "email": "hellostephenwm@gmail.com",
+    "url": "https://stephenwm.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephen-wm/hopduck.git"
+  },
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "prepare": "husky",
+    "docs": "open-cli https://github.com/stephen-wm/hopduck#README"
   },
   "dependencies": {
     "next": "16.2.9",
@@ -13,12 +38,27 @@
     "react-dom": "19.2.4"
   },
   "devDependencies": {
+    "@commitlint/cli": "^21.1.0",
+    "@commitlint/config-conventional": "^21.1.0",
+    "@commitlint/format": "^21.1.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
+    "cspell": "10.0.1",
+    "husky": "9.1.7",
+    "lint-staged": "17.0.8",
+    "open-cli": "^9.0.0",
+    "oxfmt": "0.56.0",
+    "oxlint": "1.71.0",
+    "oxlint-tsgolint": "0.23.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "ultracite": "7.8.3"
+  },
+  "engines": {
+    "node": ">=22.22.1",
+    "npm": ">=10.9.0"
   }
 }

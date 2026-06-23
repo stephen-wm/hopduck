@@ -6,7 +6,34 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
-## [0.1.0] - 2026-06-19
+## [0.2.0] - 2026-06-23
+
+### Added
+
+- Commitlint + Husky with `pre-commit` and `commit-msg` hooks to enforce conventional commits.
+- Ultracite with Oxlint and Oxfmt configurations for linting and formatting source code.
+- Lint, formatting, and docs scripts in the `package.json`.
+- VSCode workspace settings and recommended extensions.
+- `.nvmrc` pinning Node to version `v22.22.1`.
+- `.npmrc` to configure NPM behavior for dependency management.
+- `engines` field enforcing Node version >=22 and npm >=11 in `package.json`
+- CSpell for project spell checking with custom `project-terms` dictionary in `.cspell/` directory.
+- Lint-staged to lint, format, and spell check staged files.
+- Configured `.github/hooks/ultracite.json` for GitHub awareness of Ultracite lint and formatting commands.
+- Project metadata in `package.json` (description, license details, author, etc.).
+- Added license, version, last commit, and repo stars badges to the head of the README file.
+
+### Changed
+
+- Updated AI agent files to provide more context on formatting standards for the project.
+- Updated project structure diagram in README file to reflect added files and folders.
+- Replaced main "HopDuck" heading text with official project logo in README file.
+
+### Fixed
+
+- v[0.1.0] tag date in this CHANGELOG file.
+
+## [0.1.0] - 2026-06-22
 
 ### Added
 
@@ -27,5 +54,6 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - Enabled `noFallThroughCaseInSwitch` and `noUnCheckedIndexedAccess` options
   - Disabled `allowUnreachableCode` option suppression
 
-[Unreleased]: https://github.com/stephen-wm/hopduck/compare/v0.5.0...HEAD
+[Unreleased]: https://github.com/stephen-wm/hopduck/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/stephen-wm/hopduck/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/stephen-wm/hopduck/releases/tag/v0.1.0
