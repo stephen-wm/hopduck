@@ -1,4 +1,5 @@
 {
   "*.{js,jsx,ts,tsx,json,jsonc,css,scss,md,mdx}": ["npx ultracite fix ."],
-  "*.{js,jsx,ts,tsx,json,jsonc,md,mdx}": ["npx cspell"]
+  "*.{js,jsx,ts,tsx,json,jsonc,md,mdx}": ["npx cspell"],
+  "*.{md,mdx}": ["npx markdownlint-cli2"]
 }
