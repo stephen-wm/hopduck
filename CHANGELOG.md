@@ -6,6 +6,30 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-06-23
+
+### Added
+
+- Dark and light mode HopDuck logo variants in the README file header.
+- Architectural Decision Records (ADR) documents for project package manager, linter/formatter, React Compiler and app router decisions.
+- [CONTRIBUTING.md](./CONTRIBUTING.md) with full development workflow and coding standards.
+- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) based on Contributor Covenant v2.1.
+- [SECURITY.md](./.github/SECURITY.md) with vulnerability reporting guidelines.
+- [SUPPORT.md](./SUPPORT.md) with instructions on how to ask questions and receive help on the project.
+- [Versioning](./README.md#versioning) and [Contributing](./README.md#versioning) sections in README file.
+- "Arcjet" term to custom CSpell dictionary (`.cspell/project-terms.txt`).
+- Added spell check script in `package.json`.
+
+### Changed
+
+- Replaced inline HTML SVG element in README head with `<img>`.
+- Updated project structure diagram in README file to reflect added files and folders.
+- Updated lint-staged configuration to execute Ultracite using the project root, ensuring staged files are correctly detected during pre-commit checks.
+
+### Fixed
+
+- Fixed URL for last-commit badge in README header.
+
 ## [0.2.0] - 2026-06-23
 
 ### Added
@@ -54,6 +78,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - Enabled `noFallThroughCaseInSwitch` and `noUnCheckedIndexedAccess` options
   - Disabled `allowUnreachableCode` option suppression
 
-[Unreleased]: https://github.com/stephen-wm/hopduck/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/stephen-wm/hopduck/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/stephen-wm/hopduck/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/stephen-wm/hopduck/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/stephen-wm/hopduck/releases/tag/v0.1.0
